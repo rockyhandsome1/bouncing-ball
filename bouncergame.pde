@@ -1,10 +1,10 @@
 float x;
 float y;
-float xspeed=4;
-float yspeed=4;
+float xspeed=7;
+float yspeed=7;
 int xd=1;
 int yd=1;
-int ballrad=10;
+int ballrad=40;
 int tw=200;
 int th=20;
 int rectrad=10;
@@ -24,7 +24,7 @@ if(y>height)
 {
   myFont = createFont("_Bold", 32); 
   textFont(myFont); 
-  text("you lost", width/2-30, height/2); 
+  text("well played dude:)", width/2-130, height/2); 
 }
 x=x+(xspeed*xd);
 y=y+(yspeed*yd);
